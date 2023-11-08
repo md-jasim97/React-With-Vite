@@ -1,0 +1,46 @@
+/* import custom font */
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner&display=swap');
+
+  /* custom style */
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+    font-family: Agbalumo;
+    color: rgb(247, 1, 1);
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .clear-float{
+    clear: both;
+  }
+
+  .hr{
+    height: 5px;
+    color: black;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .para1, .para3{
+    color: green;
+    font-size: 1.8rem;
+    font-family: Agbalumo;
+    padding: 0;
+    margin: 0;
+    line-height: 31px;
+    margin-top: 20px;
+  }
+
+  .para2{
+    color: rgb(253, 1, 1);
+    font-size: 1.8rem;
+    font-family: Agbalumo;
+    padding: 0;
+    margin: 0;
+    line-height: 31px;
+    margin-top: 20px;
+  }

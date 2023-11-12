@@ -3,6 +3,7 @@ import React from 'react';
 const App = () => {
   return (
     <div>
+      <h1>Work Github</h1>
       <h1 className='title'> My first React Project</h1>
       <div className='clear-float'></div>
       <hr className='hr' />

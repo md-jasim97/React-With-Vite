@@ -1,0 +1,47 @@
+nav{
+    height: 65px;
+    width: 100%;
+    background-color: #00aaff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 50px;
+}
+
+
+.Cname{
+    font-family: 'Gill Sans', sans-serif;
+    line-height: 65px;
+    margin-left: 10px;
+    color: #ffff;
+}
+
+
+.login-btn{
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.Sign-Up{
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.profile-icon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.profile-icon img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}

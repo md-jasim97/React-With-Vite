@@ -5,10 +5,19 @@ main{
     padding: 20px 50px;
 }
 
+
+.grid-Container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    column-gap: 20px;
+}
+
 .card{
     min-height: 110px;
     background-color: white;
     border: 2px solid rgb(61, 60, 60);
-    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 
 }

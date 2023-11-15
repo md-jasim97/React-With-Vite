@@ -9,11 +9,13 @@ const MainContainer = () => {
     
     return (
             <main>
+                <div className="grid-Container">
                 {
-                    cards.map((card)=>(
-                        <Cards data = {card}/>
+                    cards.map((card, index)=>(
+                        <Cards key = {index} data = {card}/>
                     ))
                 }
+                </div>
             </main>
             );
     };

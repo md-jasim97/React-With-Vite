@@ -1,0 +1,59 @@
+.loginForm{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: rgb(151, 151, 151);
+    
+}
+
+.logInContainer{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    position: relative;
+    top: 100px;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.logInContainer h1{
+    text-align: center;
+    color: rgb(0, 0, 0); 
+}
+
+.name{
+    margin: 5px 0px;
+}
+
+.passwordFill{
+    display: flex;
+}
+label{
+    font-size: 22px;
+}
+
+.inputData{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.showPass{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 35, 99);
+    height: 30px;
+    width: 40px;
+    position: relative;
+    top: -10px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 35, 99);
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+}

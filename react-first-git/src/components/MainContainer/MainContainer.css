@@ -1,5 +1,5 @@
 main{
-    height: calc(100vh - 65px);
+    height: 100%;
     width: 100%;
     background-color: darkgray;
     padding: 20px 50px;

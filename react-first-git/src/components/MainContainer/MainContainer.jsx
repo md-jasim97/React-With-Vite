@@ -9,13 +9,13 @@ const MainContainer = () => {
     
     return (
             <main>
-                <div className="grid-Container">
+                {/* <div className="grid-Container">
                 {
                     cards.map((card, index)=>(
                         <Cards key = {index} data = {card}/>
                     ))
                 }
-                </div>
+                </div> */}
             </main>
             );
     };
